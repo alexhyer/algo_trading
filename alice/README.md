@@ -10,7 +10,7 @@ Alice app is where that plan is applied to live data.
 
 The trading plan currently provided is tuned for bitcoin price action only but could run on any coin supported by bitget futures if retuned. 
 
-It's designed to boot off the BTC_Data.txt file when it detects a timing error or is told to do so manually. The txt should be automatically kept up to date. If it's not updated or the data has incorrect timing it will stop running until it detects correct timing.
+It's designed to boot off the btc_price_data.txt file when it detects a timing error or is told to do so manually. The txt should be automatically kept up to date. If it's not updated or the data has incorrect timing it will stop running until it detects correct timing.
 
 If you decide to setup and run alice_app_email_updates it will send you an email if a timing error is detected. You can also get updates when trades are opened and closed using the trade_alerts variable. 
 
