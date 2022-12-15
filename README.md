@@ -9,3 +9,5 @@ Boris is a range trading strategy. It creates upper and lower bands based on sta
 
 Castille:
 Castille trades reversals detected using delta divergences. Unlike alice and boris, castille requires more than just price action to trade.
+
+With these algos you can run low or high risk depending on the leverage you choose. No matter how you use this you bear all financial responsibility.
