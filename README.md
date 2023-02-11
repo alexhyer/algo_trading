@@ -1,10 +1,10 @@
 # algo_trading
-Multiple trading strategties backtested and applied in python
+Backtest and apply trading strategies on BTC using python
 
-Alice:
-Alice is a trend following strategy. When the price has high momentum in a directing it tries to trade in that direction.
+Single entry:
+Each trade has only a single entry level with a set offset from where the trade triggers
 
-Boris:
-Boris is a range trading strategy. It creates upper and lower bands based on standard deviation and tries to trade reversals when the bands are exceeded.
+DCA entry:
+Each trade has three entry levels, each a defined amount and percentage from where the trade triggers 
 
-With these algos you can run low or high risk depending on the leverage you choose. No matter how you use this you bear all financial responsibility.
+These algos define their risk by looking at their worst historical performance. This can be scaled to whatever level is desired via leverage and position sizing. No matter how you use this you bear all financial responsibility.
